@@ -42,7 +42,7 @@
     "azKungFuVmImagePublisher": "MicrosoftWindowsDesktop",
     "azKungFuVmImageOffer": "office-365",
     "azKungFuVmWindowsOSVersion": "21h1-evd-o365pp",
-    "azKungFuVmVmSize": "Standard_B4ms",
+    "azKungFuVmVmSize": "Standard_D4s_v3",
     "azKungFuVmID": "[resourceId('Microsoft.Network/virtualNetworks', 'docker-vm-vnet')]",
     "azKungFuVmSubnetRef": "[concat(variables('azKungFuVmID'), '/subnets/', variables('azKungFuVmVnetSubnet1Name'))]",
     "azKungFuVmNicName": "[concat(variables('azKungFuVmName'), '-nic')]",
